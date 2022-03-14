@@ -1,0 +1,316 @@
+/*--------------------------DESKTOP FIRST--------------------------*/
+
+/*-------------------------GENERAL---------------------------*/
+
+* {
+        box-sizing: border-box;
+        outline: none;
+        scrollbar-width: none;
+}
+
+    
+html {
+font-size: 62.5%;
+}
+
+
+body {
+        background-image: url(../img/background.jpg);
+        background-color: #0b1d26;
+        background-repeat: no-repeat;
+        font-family: 'Gilroy', sans-serif;
+        font-weight: 600;
+}
+
+
+img {
+        max-width: 100%;
+}
+
+
+body, a {
+        color: #FFFF;
+}
+
+
+.firm-name, h1, h2 {
+        font-family: 'Chronicle Display', serif;
+}
+
+a {
+        text-decoration: none;
+}
+
+
+.firm-name {
+        font-weight: bold;
+}
+
+
+.firm-name , #footer-firm-name {
+        text-transform: uppercase;     
+}
+
+.logo {
+        font-size: 2.8rem;
+}
+
+
+.fa-user-circle {
+        margin-right: 10px;
+        font-size: 2.3rem;
+}
+
+
+.over-title, article a, footer .more-list p {
+        color: #FBD784;
+}
+
+
+.over-title div {
+        background-color: #FBD784;
+}
+
+
+.over-title div{
+        height: 2px;
+        width: 70px;
+        vertical-align: bottom;
+        align-self: center;
+        margin-right: 4%;
+}
+
+
+.over-title p {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+}
+
+
+/*----------------------------HEADER-------------------------*/
+
+
+header {
+        padding-top: 65px;
+}
+
+#header-top, #header-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5%;
+}
+
+#header-top {
+        font-size: 1.8rem;
+        height: 200px;
+}
+
+
+#header-top .logo p {
+        margin: 0;
+}
+
+#header-top nav {
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 16%;
+}
+
+
+#header-bottom {
+        margin-bottom: 60px;
+}
+
+
+#contact-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1.8em;
+        align-self: center;
+        height: 135px;
+}
+
+
+#contact-bar p {
+        transform: rotate(0.25turn);
+        margin: 0;
+        position: relative;
+        top: -20px;
+        right: 27px;
+}
+
+
+#title {
+        flex-basis: 41%;
+        margin: 0 auto 0 18%;
+}
+
+#title .over-title {
+        display: flex;
+        justify-content: space-between;
+        width: 43%;
+}
+
+
+
+#title a {
+        font-size: 1.8rem;
+}
+
+#title .fa-arrow-down-long {
+        margin: 0 15px;
+}
+
+
+h1 {
+        font-size: 7rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin: 0 0 45px;
+}
+
+
+#index-container {
+        position: fixed;
+        right: 4%;
+        display: flex;
+        justify-content: space-around;
+        width: 5%;
+}
+
+
+#index {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        justify-content: space-around;
+        height: 235px;
+        font-size: 1.7rem;
+}
+
+
+#scrollbar-background, #scrollbar-indicator {
+        background-color: #FFFFFF;
+        
+} 
+
+#scrollbar-background {
+        position: absolute;
+        width: 3px;
+        height: 235px;
+        opacity: 0.5;
+        
+}
+
+
+#scrollbar-indicator {
+        position: relative;
+        width: 3px;
+        height: 60px;
+        position: relative;
+        opacity: 1;
+}
+
+/*------------------------MAIN-------------------------*/
+
+
+main {
+        margin-top: 880px;
+}
+
+.article-number {
+        opacity: 10%;
+        position: relative;
+        font-size: 24rem;
+        top: 50px;
+        left: -25%;
+        bottom: top;
+        margin: 0;
+}
+
+article {
+        display: flex;
+        width: 77%;
+        margin: 11% auto;
+        justify-content: space-between;
+}
+
+article > div {
+        align-self: center;
+        flex-basis: 45%;
+        margin: auto
+}
+
+article:nth-child(2) > div {
+        margin: 0 auto 0 20%;
+}
+
+article .over-title {
+        display: flex;
+        justify-content: space-between;
+}
+
+article h2 {
+        font-size: 7rem;
+        font-weight: unset;
+        margin: 0 0 40px;
+}
+
+article p {
+        font-size: 1.7rem;
+        line-height: 32px;
+        width: 92%;
+}
+
+article a {
+        font-size: 1.7rem;
+}
+
+.fa-arrow-right-long {
+        margin-left: 12px;
+}
+
+/*---------------------------FOOTER--------------------------*/
+
+footer {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.6rem;
+}
+
+footer div:first-child {
+        flex-basis: 15%;
+}
+
+
+footer p:last-child {
+        opacity: 0.5;
+        margin-top: 76px;
+        width: 120%;
+        font-weight: normal;
+}
+
+footer div:first-child p:not(.logo) {
+        line-height: 30px;
+}
+
+footer .more-list p{
+        font-size: 2.3rem;
+}
+
+footer .more-list li {
+        margin: 20px 0;
+}
+
+footer ul {
+        padding: 0;
+        font-size: 1.6rem;
+        font-weight: normal;
+}
+
+footer li {
+        list-style: none;
+        margin: 0 0;
+}
